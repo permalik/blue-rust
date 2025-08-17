@@ -1,8 +1,8 @@
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
-struct RawLog {
-    msg_id: String,
-    service: String,
-    content: String,
+pub struct RawLog {
+    pub msg_id: String,
+    pub service: String,
+    pub content: String,
 }
